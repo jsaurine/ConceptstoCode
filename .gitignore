@@ -1,0 +1,38 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules if using any npm packages (e.g. for custom builds)
+node_modules/
+
+# Ignore Python cache if running scripts
+__pycache__/
+*.pyc
+
+# Ignore Obsidian workspace settings
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Optional: ignore Publish plugin config if managed locally only
+# .obsidian/plugins/obsidian-publish/
+
+# Ignore CSS snippets you’re testing locally
+.obsidian/snippets/dev-*
+
+# Ignore publish log or change tracking files
+README-CHANGES.md
+
+# Ignore VS Code workspace settings
+.vscode/
+*.code-workspace
+
+# Ignore logs or temporary files
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Ignore zip exports or backup folders
+*.zip
+/archive/
+/backups/
