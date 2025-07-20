@@ -20,7 +20,7 @@ This section examines key strategies and models employed in designing software s
 
 ### Section map
 
-* 420.1 The secure development lifecycle
-* 420.2 Risk modelling and user-centred design
-* 420.3 Sandboxing and abstraction
-* 420.4 Cryptography and secure architecture patterns
+* [420.1 The secure development lifecycle](420.1-the-secure-software-development-lifecycle.md)
+* [420.2 Risk modelling and user-centred design](420.5-secure-apis-and-defensive-coding.md)
+* [420.3 Sandboxing and abstraction](420.6-designing-secure-software-with-the-user-in-mind.md)
+* [420.4 Cryptography and secure architecture patterns](420.4-cryptograpphy-and-sandboxing.md)

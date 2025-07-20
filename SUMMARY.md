@@ -124,14 +124,10 @@
   * [440.3 Vulnerability assessment and penetration testing](400-secure-software-architecture/440-testing-and-hardening-systems/440.3-vulnerability-assessment-and-penetration-testing.md)
   * [440.4 Case studies of breach response](400-secure-software-architecture/440-testing-and-hardening-systems/440.4-case-studies-of-breach-response.md)
 * [450 Social, ethical and legal responsibilities](400-secure-software-architecture/430-ethical-and-social-responsibilities/README.md)
-  * [450 Analysing impacts](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450-analysing-impacts.md)
-  * [450 Case studies](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450-case-studies.md)
-  * [450 Legal responsibilities](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450-legal-responsibilities.md)
-  * [450 Ethical and social responsibilities](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450-ethical-and-social-responsibilities.md)
-  * [450 Social and environmental impact](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450-social-and-environmental-impact.md)
   * [450.1 Privacy, copyright and compliance](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450.1-privacy-copyright-and-compliance.md)
   * [450.2 Ethical dilemmas and social impact](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450.2-ethical-dilemmas-and-social-impact.md)
   * [450.3 Collaboration and professional responsibility](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450.3-collaboration-and-professional-responsibility.md)
+  * [450.4 Real-world case studies](400-secure-software-architecture/450-social-ethical-and-legal-responsibilities/450.4-real-world-case-studies.md)
 
 ## 500 Programming for the web
 
