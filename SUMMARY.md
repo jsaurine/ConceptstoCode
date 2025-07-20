@@ -105,7 +105,8 @@
 
 * [410 Guiding principles](400-secure-software-architecture/410-guiding-principles/README.md)
   * [410.1 What is secure software?](400-secure-software-architecture/410-guiding-principles/410.1-what-is-secure-software.md)
-  * [420.2 The CIA triad](400-secure-software-architecture/410-guiding-principles/420.2-the-cia-triad.md)
+  * [410.2 The CIA triad](400-secure-software-architecture/410-guiding-principles/410.2-the-cia-triad.md)
+  * [410.3 Security and privacy by design](400-secure-software-architecture/410-guiding-principles/410.3-security-and-privacy-by-design.md)
 * [420 Secure software development principles](400-secure-software-architecture/420-secure-software-development-principles/README.md)
   * [420.1 The secure software development lifecycle](400-secure-software-architecture/420-secure-software-development-principles/420.1-the-secure-software-development-lifecycle.md)
   * [420.3 Security and privacy by design](400-secure-software-architecture/420-secure-software-development-principles/420.3-security-and-privacy-by-design.md)
