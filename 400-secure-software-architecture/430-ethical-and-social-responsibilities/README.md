@@ -4,7 +4,7 @@ description: >-
   environment—and why developers must act responsibly.
 ---
 
-# 430 Ethical and social responsibilities
+# 450 Social, ethical and legal responsibilities
 
 As software engineers, our decisions shape how technology interacts with people’s lives. In this section, you’ll explore the legal obligations, ethical expectations, and social impacts associated with developing secure software. Whether protecting user privacy, reducing algorithm bias, or understanding how software changes the workforce, ethical and social responsibility is central to developing trustworthy systems. This section helps you identify your obligations as a developer and evaluate the broader consequences of design and deployment decisions.
 

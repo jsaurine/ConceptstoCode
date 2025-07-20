@@ -4,7 +4,7 @@ description: >-
   environment—and how to design with sustainability and fairness in mind.
 ---
 
-# 430.3 Social and environmental impact
+# 450 Social and environmental impact
 
 ### TL;DR
 

@@ -4,7 +4,7 @@ description: >-
   make ethical decisions that respect users, communities, and society.
 ---
 
-# 430.2 Ethical and social responsibilities
+# 450 Ethical and social responsibilities
 
 ### TL;DR
 

@@ -4,7 +4,7 @@ description: >-
   why compliance is essential for responsible development.
 ---
 
-# 430.1 Legal responsibilities
+# 450 Legal responsibilities
 
 ### TL;DR
 
