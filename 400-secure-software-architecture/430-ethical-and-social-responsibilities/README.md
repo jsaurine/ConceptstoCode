@@ -12,21 +12,6 @@ description: >-
 * Identify responsibilities related to privacy, intellectual property and law
 * Understand how collaboration and professional practice influence software quality and security
 
-### Syllabus references
-
-<details>
-
-<summary><a href="https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/content/year-12/fa039e749d">Secure software architecture</a></summary>
-
-* Explain the social, ethical and legal implications of software engineering, including:
-  * privacy and data protection
-  * copyright
-  * access and equity
-  * legal compliance
-* Investigate how team collaboration, documentation, and professional behaviour support secure, ethical software development
-
-</details>
-
 ### Introduction
 
 Writing secure software means more than getting the code right. It also involves making responsible decisions about data, intellectual property, collaboration, and the role technology plays in society.
