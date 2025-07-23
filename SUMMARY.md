@@ -213,3 +213,9 @@
 * [150 Project management foundations](orphaned-pages/150-project-management-foundations.md)
 * [120 Designing algorithms](orphaned-pages/120-designing-algorithms/README.md)
   * [122 Algorithm design](orphaned-pages/120-designing-algorithms/122-algorithm-design.md)
+
+## Exam-style questions
+
+* [400 Secure software architecture](exam-style-questions/400-secure-software-architecture/README.md)
+  * [Security vs Privacy by Design and SSDLC](exam-style-questions/400-secure-software-architecture/security-vs-privacy-by-design-and-ssdlc/README.md)
+    * [Marking guidelines and sample response](exam-style-questions/400-secure-software-architecture/security-vs-privacy-by-design-and-ssdlc/marking-guidelines-and-sample-response.md)
