@@ -2,10 +2,9 @@
 description: >-
   Review a full-mark extended response, a completed SSDLC comparison table, and
   detailed marking criteria to strengthen your exam technique.
-hidden: true
 ---
 
-# Marking guidelines and sample response
+# Marking guideline and sample response
 
 ### Completed table: Privacy by Design vs Security by Design
 

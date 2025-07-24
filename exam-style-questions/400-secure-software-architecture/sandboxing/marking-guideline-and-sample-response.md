@@ -2,7 +2,6 @@
 description: >-
   Review a full-mark extended response, a completed security goal analysis
   table, and detailed marking criteria to strengthen your exam technique.
-hidden: true
 ---
 
 # Marking guideline and sample response
