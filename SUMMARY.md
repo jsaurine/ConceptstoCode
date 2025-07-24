@@ -124,6 +124,7 @@
   * [430.2 Secure APIs and authentication](400-secure-software-architecture/430-writing-secure-code/430.2-secure-apis-and-authentication.md)
   * [430.3 Cryptography basics](400-secure-software-architecture/430-writing-secure-code/430.3-cryptography-basics.md)
   * [430.4 Managing memory, sessions, exceptions](400-secure-software-architecture/430-writing-secure-code/430.4-managing-memory-sessions-exceptions.md)
+  * [430.5 Web-based threats: XSS, CSRF, and redirect flaws](400-secure-software-architecture/430-writing-secure-code/430.5-web-based-threats-xss-csrf-and-redirect-flaws.md)
 * [440 Testing and hardening systems](400-secure-software-architecture/440-testing-and-hardening-systems/README.md)
   * [440.1 Code review and secure coding standards](400-secure-software-architecture/440-testing-and-hardening-systems/440.1-code-review-and-secure-coding-standards.md)
   * [440.2 SAST and DAST testing strategies](400-secure-software-architecture/440-testing-and-hardening-systems/440.2-sast-and-dast-testing-strategies.md)
