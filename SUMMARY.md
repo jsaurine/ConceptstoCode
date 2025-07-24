@@ -218,4 +218,8 @@
 
 * [400 Secure software architecture](exam-style-questions/400-secure-software-architecture/README.md)
   * [Security vs Privacy by Design and SSDLC](exam-style-questions/400-secure-software-architecture/security-vs-privacy-by-design-and-ssdlc/README.md)
-    * [Marking guidelines and sample response](exam-style-questions/400-secure-software-architecture/security-vs-privacy-by-design-and-ssdlc/marking-guidelines-and-sample-response.md)
+    * [Marking guideline and sample response](exam-style-questions/400-secure-software-architecture/security-vs-privacy-by-design-and-ssdlc/marking-guideline-and-sample-response.md)
+  * [Sandboxing](exam-style-questions/400-secure-software-architecture/sandboxing/README.md)
+    * [Marking guideline and sample response](exam-style-questions/400-secure-software-architecture/sandboxing/marking-guideline-and-sample-response.md)
+  * [Applying cryptography in secure software design](exam-style-questions/400-secure-software-architecture/applying-cryptography-in-secure-software-design/README.md)
+    * [Marking guideline and sample response](exam-style-questions/400-secure-software-architecture/applying-cryptography-in-secure-software-design/marking-guideline-and-sample-response.md)
