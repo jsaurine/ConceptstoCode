@@ -109,6 +109,7 @@
 
 ## 400 Secure Software Architecture
 
+* [400 Concept Mapping](400-secure-software-architecture/400-concept-mapping.md)
 * [410 Principles of secure software](400-secure-software-architecture/410-principles-of-secure-software/README.md)
   * [411 Goals of secure software development](400-secure-software-architecture/410-principles-of-secure-software/411-goals-of-secure-software-development/README.md)
     * [411.1 The CIA triad](400-secure-software-architecture/410-principles-of-secure-software/411-goals-of-secure-software-development/411.1-the-cia-triad.md)
