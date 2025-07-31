@@ -239,4 +239,7 @@
     * [Marking guideline and sample response](exam-style-questions/400-secure-software-architecture/sandboxing/marking-guideline-and-sample-response.md)
   * [Applying cryptography in secure software design](exam-style-questions/400-secure-software-architecture/applying-cryptography-in-secure-software-design/README.md)
     * [Marking guideline and sample response](exam-style-questions/400-secure-software-architecture/applying-cryptography-in-secure-software-design/marking-guideline-and-sample-response.md)
-* [Python coding tasks](exam-style-questions/python-coding-tasks.md)
+* [Python coding tasks](exam-style-questions/python-coding-tasks/README.md)
+  * [Task 1 Solution](exam-style-questions/python-coding-tasks/task-1-solution.md)
+  * [Task 2 Solution](exam-style-questions/python-coding-tasks/task-2-solution.md)
+  * [Task 3 Solution](exam-style-questions/python-coding-tasks/task-3-solution.md)
