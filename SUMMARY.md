@@ -175,6 +175,7 @@
   * [515 Frontend developer tools](500-programming-for-the-web/510-how-web-applications-work/515-frontend-developer-tools/README.md)
     * [Hacksheet](500-programming-for-the-web/510-how-web-applications-work/515-frontend-developer-tools/hacksheet.md)
     * [Lab](500-programming-for-the-web/510-how-web-applications-work/515-frontend-developer-tools/lab.md)
+  * [517 Securing web applications](500-programming-for-the-web/510-how-web-applications-work/517-securing-web-applications.md)
 * [520 Frontend web development](500-programming-for-the-web/520-frontend-web-development/README.md)
   * [521 Structuring webpages with HTML](500-programming-for-the-web/520-frontend-web-development/521-structuring-webpages-with-html/README.md)
     * [Hacksheet 521 / Understanding HTML page structure](500-programming-for-the-web/520-frontend-web-development/521-structuring-webpages-with-html/hacksheet-521-understanding-html-page-structure/README.md)
@@ -204,8 +205,10 @@
         * [Solutions](500-programming-for-the-web/520-frontend-web-development/524-javascript-in-front-end-web-development/5224.3-fetching-data-with-javascript-and-apis/hacksheet/solutions.md)
       * [Lab 5243 Working with APIs](500-programming-for-the-web/520-frontend-web-development/524-javascript-in-front-end-web-development/5224.3-fetching-data-with-javascript-and-apis/lab-5243-working-with-apis.md)
     * [524.4 Front-end libraries](500-programming-for-the-web/520-frontend-web-development/524-javascript-in-front-end-web-development/524.4-front-end-libraries.md)
-* [530 Server side web development](500-programming-for-the-web/530-server-side-web-development.md)
-* [540 Database management](500-programming-for-the-web/540-database-management.md)
+  * [525 Development tools and practices](500-programming-for-the-web/520-frontend-web-development/525-development-tools-and-practices.md)
+* [530 Back-end web programming](500-programming-for-the-web/530-back-end-web-programming/README.md)
+  * [531 Server-side web programming](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming.md)
+  * [532 Database management](500-programming-for-the-web/530-back-end-web-programming/532-database-management.md)
 
 ## 700 Software Engineering Project
 
