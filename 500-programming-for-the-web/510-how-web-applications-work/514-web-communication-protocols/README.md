@@ -22,16 +22,7 @@ In this topic, students learn to:
 
 ### Glossary
 
-| Term               | Definition                                                                             |
-| ------------------ | -------------------------------------------------------------------------------------- |
-| **Protocol**       | A defined set of rules for how devices communicate over a network                      |
-| **Port**           | A numbered channel on a device used to route specific types of traffic                 |
-| **IP address**     | A unique identifier for a device on a network (IPv4 or IPv6)                           |
-| **DNS**            | Domain Name System; translates human-readable domain names into IP addresses           |
-| **HTTP/HTTPS**     | Protocols used for requesting and delivering web content; HTTPS adds encryption        |
-| **TCP/IP**         | A suite of protocols that define how data is formatted and transmitted across networks |
-| **FTP/SFTP**       | Protocols used for file transfer; SFTP includes secure encryption                      |
-| **SMTP/POP3/IMAP** | Protocols used to send and retrieve email messages                                     |
+<table><thead><tr><th width="264.3828125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Protocol</strong></td><td>A defined set of rules for how devices communicate over a network</td></tr><tr><td><strong>Port</strong></td><td>A numbered channel on a device used to route specific types of traffic</td></tr><tr><td><strong>IP address</strong></td><td>A unique identifier for a device on a network (IPv4 or IPv6)</td></tr><tr><td><strong>DNS</strong></td><td>Domain Name System; translates human-readable domain names into IP addresses</td></tr><tr><td><strong>HTTP/HTTPS</strong></td><td>Protocols used for requesting and delivering web content; HTTPS adds encryption</td></tr><tr><td><strong>TCP/IP</strong></td><td>A suite of protocols that define how data is formatted and transmitted across networks</td></tr><tr><td><strong>FTP/SFTP</strong></td><td>Protocols used for file transfer; SFTP includes secure encryption</td></tr><tr><td><strong>SMTP/POP3/IMAP</strong></td><td>Protocols used to send and retrieve email messages</td></tr></tbody></table>
 
 ### Overview
 
