@@ -165,7 +165,7 @@
     * [514.1 HTTP and HTTPS](500-programming-for-the-web/510-how-web-applications-work/514-web-communication-protocols/514.1-http-and-https.md)
     * [514.2 TCP/IP, FTP, and SFTP](500-programming-for-the-web/510-how-web-applications-work/514-web-communication-protocols/514.2-tcp-ip-ftp-and-sftp.md)
     * [512.3 SMTP, POP3, and IMAP](500-programming-for-the-web/510-how-web-applications-work/514-web-communication-protocols/512.3-smtp-pop3-and-imap.md)
-  * [515 Frontend developer tools](500-programming-for-the-web/510-how-web-applications-work/515-frontend-developer-tools.md)
+  * [515 Front-end developer tools](500-programming-for-the-web/510-how-web-applications-work/515-front-end-developer-tools.md)
   * [516 Big data and web architecture](500-programming-for-the-web/510-how-web-applications-work/516-big-data-and-web-architecture.md)
   * [517 Securing web applications](500-programming-for-the-web/510-how-web-applications-work/517-securing-web-applications.md)
 * [520 Frontend web development](500-programming-for-the-web/520-frontend-web-development/README.md)
