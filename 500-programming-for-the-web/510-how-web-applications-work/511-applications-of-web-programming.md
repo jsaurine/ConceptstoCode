@@ -51,7 +51,7 @@ They rely on a combination of HTML (structure), CSS (presentation), and JavaScri
 
 A job search website allows users to filter listings by location, salary, or job type, then submit applications directly through the site.
 
-**Image caption suggestion:** _A diagram showing the interaction between user input, front-end scripts, and back-end processing on a dynamic webpage._
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p><em>A diagram showing the interaction between user input, front-end scripts, and back-end processing on a dynamic webpage.</em></p></figcaption></figure>
 
 ### E-commerce applications
 
@@ -68,7 +68,7 @@ Backend databases manage inventory, pricing, orders, and customer accounts.
 
 A clothing retailer’s website lets customers browse items, apply discount codes, and track orders through an account portal.
 
-**Image caption suggestion:** _A flow diagram showing a customer placing an order through a web store: browsing → cart → checkout → confirmation._
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p><em>A user flow diagram showing a customer placing an order through a web store.</em></p></figcaption></figure>
 
 ### Progressive Web Apps (PWAs)
 
@@ -87,7 +87,7 @@ They are built using standard web technologies but enhanced with modern APIs.
 
 A transit app that works in the browser but also installs to a smartphone and shows real-time bus locations—even without an internet connection.
 
-**Image caption suggestion:** _Screenshot or mock-up comparing a native mobile app and a PWA version with nearly identical UI._
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ### Summary
 

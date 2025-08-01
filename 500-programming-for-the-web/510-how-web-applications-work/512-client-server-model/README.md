@@ -6,23 +6,19 @@ description: >-
 
 # 512 Client-server model
 
-### 512 Client-server model
-
-Understand how the client-server model enables interactive communication between browsers and web servers.
-
 ### Overview
 
-In this topic, we explore how web applications use the client-server model to process requests and deliver dynamic content. This model defines the relationship between the user's device (client) and a remote server, enabling them to exchange information over the internet using web protocols. Understanding this model is fundamental to designing, debugging, and securing web-based systems.
+In this topic, we explore how web applications use the client-server model to manage interactions between users and the systems that process their requests. This model separates concerns between the front-end (client) and back-end (server), enabling efficient, scalable, and secure application development. A deep understanding of this model is essential to design reliable systems that respond to user input in real time.
 
 ### Targets
 
 In this topic, students learn to:
 
-* Define the client-server model and identify its components
-* Describe the flow of requests and responses in a web application
-* Understand the role of protocols such as HTTP and IP in managing communication
-* Explain how sessions and state are managed across multiple interactions
-* Recognise how separating client and server logic improves security and design
+* Describe the components and roles of the client-server model
+* Explain how requests and responses are exchanged across a network
+* Identify the benefits of separation between front-end and back-end
+* Understand how session data is maintained between interactions
+* Prepare for full-stack development by recognising system responsibilities
 
 ### Syllabus references
 
@@ -30,62 +26,58 @@ In this topic, students learn to:
 
 <summary><a href="https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/content/year-12/fa6aab137e"><strong>Programming for the web</strong></a></summary>
 
-**Data transmission using the web**
+**Designing web applications**
 
-*   Investigate and practise how data is transferred on the internet
-
-    data packets
-
-    internet protocol (IP) addresses, including IPv4
-
-    domain name systems (DNS)
+* Model elements that form a web development system\
+  – client-side (front-end) web programming\
+  – server-side (back-end) web programming
+* Describe how collaborative work practices between front-end and back-end developers improve the development of a web solution
 
 </details>
 
 ### What is the client-server model?
 
-The **client-server model** describes a relationship in which a **client**, such as a web browser, requests resources from a **server**, which processes the request and returns a response.
+The **client-server model** is a network architecture where a client (such as a web browser) sends requests for information or services, and a server responds with the appropriate data or functionality. This model enables multiple clients to interact with a centralised server, making it ideal for web applications.
 
-This model is used by nearly all web applications. The client handles user interaction and presentation, while the server manages business logic, data storage, and security. This separation allows each part to be developed, scaled, and secured independently.
+### How the request-response cycle works
 
-### The request-response cycle
+When you load a website or interact with a form, a series of actions take place:
 
-1. The client (browser) sends an HTTP request to a server.
-2. The server processes the request—possibly querying a database or performing a calculation.
-3. The server sends an HTTP response back to the client.
-4. The browser receives the response and displays the content or data to the user.
+1. The **client** sends an HTTP request (e.g. to fetch a webpage).
+2. The **server** receives the request, processes it (often by querying a database), and generates a response.
+3. The **client** receives and renders the response, such as displaying a webpage or JSON data.
 
-This cycle repeats with each interaction—clicking links, submitting forms, or navigating to new pages.
+Each request is treated independently unless session management strategies are used.
 
-**Image placeholder:**\
-&#xNAN;_&#x41; labelled diagram showing the request-response cycle between client and server, including arrows for requests and responses, and optional components like DNS lookup or database query._
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Clients sends requests to the server. The server processes the requests and returns a response, often involving business logic or database access.</p></figcaption></figure>
 
-**Caption:**\
-The client sends a request to the server using HTTP. The server processes the request and returns a response, such as a webpage, data, or confirmation message.
+### Key features and benefits
 
-### Benefits of the client-server model
+#### Separation of concerns
+
+* **Client-side**: Manages user interface and interactivity.
+* **Server-side**: Handles business logic, data access, and authentication.\
+  This separation allows developers to work independently on each part, improving maintainability and scalability.
 
 #### Security
 
-Sensitive operations such as login verification or data access are handled on the server side, reducing exposure to malicious activity on the client.
-
-#### Modularity
-
-Front-end and back-end development can be handled by separate teams using different tools and languages. This improves maintainability and scalability.
+Sensitive operations such as login authentication, payment processing, or database queries occur on the server, which is not exposed to the client.
 
 #### Scalability
 
-Servers can handle multiple simultaneous requests from clients, and can be scaled vertically (more resources) or horizontally (more servers) as needed.
+Multiple clients can interact with the same server simultaneously. Load balancers and replicated servers can help manage growing demand.
 
 ### Real-world example
 
-A student logs into their school portal:
+A student logs into an online learning platform:
 
-* The client (browser) sends a login request to the server.
+* The browser sends a login request with the student’s credentials.
 * The server checks the credentials and creates a session.
-* The server sends back a personalised dashboard page.
-* The client renders the dashboard for the student to use.
+* The server returns a personalised dashboard page.
+* The client renders the dashboard in the browser.
+
+Each step is part of the request-response cycle defined by the client-server model.
 
 ### Summary
 
-The client-server model is the foundation of all interactive web systems. It allows user devices to send requests to servers, which respond with content or actions. Understanding how this model works is essential for building secure, efficient, and responsive web applications.
+The client-server model is the cornerstone of web architecture. It allows clients to request resources and services from servers, which respond with content, actions, or data. This model promotes modularity, scalability, and security, and forms the foundation for full-stack development in both front-end and back-end roles.
