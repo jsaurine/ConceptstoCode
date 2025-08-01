@@ -1,222 +1,92 @@
 ---
-description: Ensuring usability and adaptability across devices and users
+description: >-
+  Learn how to design webpages that adapt to different devices and support
+  inclusive, accessible experiences for all users.
 ---
 
 # 523 Responsive design and accessibility principles
 
-### TL:DR
+### Overview
 
-Responsive design ensures that websites adapt to different screen sizes and devices, providing an optimal viewing experience across desktops, tablets, and mobile phones. Accessibility focuses on making web content inclusive for all users, including those with disabilities, by following best practices such as semantic HTML, ARIA attributes, and keyboard-friendly navigation. Both principles contribute to user-friendly, legally compliant, and widely accessible web applications.
-
-***
+In this topic, we explore how responsive design and accessibility work together to ensure that web content is usable on any device and by all users. Students learn how to use flexible layouts, relative sizing, and media queries to build mobile-friendly designs, while also applying accessibility guidelines to support users with diverse needs. These principles are essential for creating ethical, inclusive and effective web applications.
 
 ### Targets
 
-By the end of this section, students will be able to:
+In this topic, students learn to:
 
-• Use CSS media queries to create adaptable layouts for various screen sizes.
+* Define responsive design and describe its importance
+* Use media queries and flexible layouts to support multiple screen sizes
+* Apply semantic HTML and ARIA roles to improve accessibility
+* Follow best practices for colour contrast, keyboard navigation, and alternative text
+* Evaluate webpages for inclusivity using browser accessibility tools
 
-• Apply Flexbox and Grid techniques to build responsive web designs.
+### Syllabus references
 
-• Implement fluid typography and scalable images for better adaptability.
+<details>
 
-• Explain the significance of web accessibility and its impact on users.
+<summary><a href="https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/content/year-12/fa6aab137e"><strong>Programming for the web</strong></a></summary>
 
-• Use semantic HTML and ARIA attributes to enhance accessibility.
+**Designing web applications**
 
-***
+* Investigate cascading style sheets (CSS) and its impact on the design of a web application\
+  – consistency of appearance\
+  – flexibility with browsers or display devices
+* Investigate and explain the role of the World Wide Web Consortium (W3C) in the development of applications for the web\
+  – Web Accessibility Initiative (WAI)\
+  – accessibility
 
-Responsive design ensures that a website’s layout and content can adapt to various screen widths and orientations. This is typically achieved through fluid layouts, media queries, and flexible images. Accessibility removes barriers so that people of all abilities and disabilities can perceive, understand, navigate, and interact with web content. By combining responsive design with accessibility best practices, developers create visually appealing and inclusive solutions for everyone.
+</details>
 
-## Responsive design and accessibility principles
+### What is responsive design?
 
-Responsive design ensures that webpages automatically adjust layouts, images, and text based on different screen sizes or device capabilities. Combined with accessibility best practices, this approach creates inclusive experiences considering various user needs, including those relying on assistive technologies.
+**Responsive design** means building webpages that automatically adapt to different screen sizes and devices. A responsive site might rearrange content, scale images, or change font sizes when viewed on a mobile phone versus a desktop monitor.
 
-### Why responsiveness and accessibility matter
+Techniques include:
 
-A responsive page adapts its layout and display properties so all users can comfortably read and navigate, whether on a large desktop monitor or a small mobile screen. Accessibility ensures that people with diverse abilities — including those who cannot see images, use screen readers, or have limited dexterity — can interact with a webpage’s content and features. Together, they reflect an ethical, inclusive approach that aligns with legal and regulatory standards such as [WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/TR/WCAG21/).
-
-### Responsive HTML structure with accessibility in mind
-
-Below is a sample HTML page that demonstrates:
-
-* Semantic elements (headings, nav, main, section) for logical structure
-* [ARIA ](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)attributes for better screen reader support
-* alt text on images to describe visual content
-* Properly labelled form fields
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<!-- The lang attribute assists screen readers by specifying the page language. -->
-<head>
-  <meta charset="UTF-8">
-  <!-- Ensures correct text encoding across various platforms and devices. -->
-  <title>Responsive and Accessible Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Sets the page to adapt to the width of the device for mobile-friendly design. -->
-</head>
-<body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <!-- aria-label clarifies that this nav element is for main site navigation. -->
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="#news">News</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Each section is identified by a heading and an ID, 
-         providing structure for screen readers and anchor links. -->
-    <section id="news">
-      <h2>Latest News</h2>
-      <p>This section includes current updates and articles.</p>
-      <!-- alt text ensures users who cannot see images can still 
-           understand what the image conveys. -->
-      <img src="images/news.jpg" alt="Breaking news highlight">
-    </section>
-
-    <section id="gallery">
-      <h2>Gallery</h2>
-      <!-- Each image includes a descriptive alt attribute, a key WCAG requirement. -->
-      <img src="images/photo1.jpg" alt="A scenic mountain view">
-      <img src="images/photo2.jpg" alt="Close-up of a flower in bloom">
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form>
-        <!-- Label elements connect visually and programmatically to inputs, 
-             enhancing clarity for screen readers. -->
-        <label for="name">Name</label>
-        <!-- aria-required indicates that this field must be filled in, 
-             assisting assistive technologies in relaying that requirement. -->
-        <input id="name" type="text" name="name" aria-required="true">
-        
-        <label for="message">Message</label>
-        <textarea id="message" name="message" aria-required="true"></textarea>
-        
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 My Website</p>
-  </footer>
-</body>
-</html>
-```
-
-#### Key accessibility points in this HTML
-
-* **lang="en"**\
-  Informs screen readers of the primary language.
-* **ARIA attributes**\
-  Provide context (e.g., aria-required, aria-label).
-* **Descriptive alt text**\
-  Communicates image content to users who cannot see.
-* **Semantic tags**\
-  Clearly define content sections for screen readers and search engines.
-* **Label and for pairing**\
-  Ensures assistive devices correctly read form inputs.
-
-### Mobile-first CSS and media queries
-
-The following CSS shows how to create a mobile-first layout that adapts to larger devices at specific breakpoints. Comments within the code highlight responsive strategies and accessibility-friendly practices.
+* **Relative units** (e.g. `em`, `%`, `vw`) instead of fixed pixels
+* **Fluid grids** that adjust column sizes
+* **Media queries** to apply styles conditionally based on screen size
 
 ```css
-/* Base styling for all devices, ensuring decent colour contrast 
-   and spacing for readability. */
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
-/* Constrain overall width to avoid extremely long lines on large screens. */
-header, main, footer {
-  padding: 1rem;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* Make images responsive by preventing overflow on smaller screens. */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* 
-  Mobile-first approach: for narrow screens, 
-  nav items stack vertically for easier tapping and scrolling. 
-*/
-nav ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-/* 
-  At 600px or wider (common tablet breakpoint), 
-  switch nav items to a row layout and 
-  introduce a more flexible main display. 
-*/
-@media screen and (min-width: 600px) {
-  nav ul {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-
-  section {
-    flex: 1 1 45%;
-  }
-}
-
-/* 
-  At 900px or wider (desktop breakpoint), 
-  shrink sections so more content can fit side by side.
-*/
-@media screen and (min-width: 900px) {
-  section {
-    flex: 1 1 30%;
+@media screen and (max-width: 600px) {
+  .nav-menu {
+    display: none;
   }
 }
 ```
 
-#### How this CSS supports accessibility
+This CSS hides a navigation menu on screens narrower than 600 pixels.
 
-* **Mobile-first design**\
-  Minimises load time for small devices and avoids clutter on narrow screens.
-* **Fluid images**\
-  Prevents horizontal scrolling and keeps layouts neat for screen magnifiers.
-* **Text readability**\
-  Adequate spacing, margins, and font sizing help visually impaired users.
-* **Incremental breakpoints**\
-  Improves user experience by adding complexity only when screens can accommodate it.
+**Image placeholder**\
+&#xNAN;_&#x41; mockup showing the same webpage on desktop, tablet, and mobile views._
 
-By integrating responsive design and accessibility principles into the same workflow, developers build appealing websites, adapt to varying device constraints, and remain inclusive for users of all abilities. This chapter’s example HTML and CSS highlight how to achieve these goals while fulfilling syllabus content on responsiveness, device flexibility, and inclusive design approaches.
+**Caption:**\
+Responsive design ensures that webpages adjust automatically to fit different screen sizes, improving usability and accessibility across devices.
 
-***
+### Accessibility principles
 
-### Key Concepts
+**Accessibility** means designing webpages so people with disabilities or impairments, such as vision loss, motor difficulties, or dyslexia, can use them.
 
-> * **Responsive design** allows websites to dynamically adjust to different screen sizes using flexible layouts, scalable elements, and CSS techniques.
-> * **Media queries** enable developers to apply styles based on screen width, resolution, and orientation, ensuring an optimal viewing experience.
-> * **Flexbox and CSS Grid** provide efficient ways to create dynamic, responsive layouts without relying on fixed pixel dimensions.
-> * **Web accessibility** ensures that digital content is usable by people with disabilities, improving inclusivity.
-> * **Semantic HTML** enhances accessibility and SEO by using meaningful elements such as \<header>, \<nav>, \<main>, and \<footer>.
-> * **ARIA (Accessible Rich Internet Applications)** attributes provide additional context for screen readers and assistive technologies.
-> * **Keyboard navigation and contrast ratios** are essential considerations for ensuring accessibility compliance and usability.Use CSS media queries to create adaptable layouts for various screen sizes.
+Core principles include:
 
+* **Text alternatives** – for images (`alt` attributes) and icons
+* **Keyboard accessibility** – ensure all functionality is reachable without a mouse
+* **Semantic HTML** – use tags that describe content (e.g. `<nav>`, `<main>`, `<button>`)
+* **Colour contrast** – provide sufficient contrast between text and background
+* **Captions and transcripts** – for audio or video content
 
+The **Web Accessibility Initiative (WAI)** from the W3C provides internationally recognised guidelines, including the **WCAG (Web Content Accessibility Guidelines)**.
 
+### Tools for testing accessibility
+
+Modern browsers include built-in accessibility evaluation tools. These can be used to:
+
+* Highlight missing alt attributes or ARIA roles
+* Test keyboard navigation and tab order
+* Simulate vision impairments (e.g. colour blindness, screen readers)
+
+Online tools like [WAVE](https://wave.webaim.org/) and browser extensions like Axe DevTools also support accessibility audits.
+
+### Summary
+
+Responsive design and accessibility ensure that web applications are usable across devices and inclusive of all users. By combining flexible layouts with semantic structure and thoughtful interface choices, developers can create web content that is ethical, user-friendly, and aligned with best practice standards.
