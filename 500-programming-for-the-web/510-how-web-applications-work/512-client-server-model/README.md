@@ -1,88 +1,91 @@
 ---
 description: >-
-  How distributed web applications function through communication between client
-  devices and centralised servers
+  Understand how the client-server model enables interactive communication
+  between browsers and web servers.
 ---
 
 # 512 Client-server model
 
-### TL;DR
+### 512 Client-server model
 
-The **client-server model** is the foundation of web applications, where a **client** (e.g., a web browser or mobile app) requests resources from a **server** that processes and responds to those requests. This interaction follows the **request-response cycle**, typically using **HTTP** or **HTTPS** protocols. Web servers handle client requests, often working with **database servers** to retrieve and store data. The model can be **centralised** (single server) or **distributed** (multiple servers for scalability). Security measures, such as **authentication, encryption, and access control**, are essential to protect data and maintain secure communication between clients and servers.
+Understand how the client-server model enables interactive communication between browsers and web servers.
 
-***
+### Overview
+
+In this topic, we explore how web applications use the client-server model to process requests and deliver dynamic content. This model defines the relationship between the user's device (client) and a remote server, enabling them to exchange information over the internet using web protocols. Understanding this model is fundamental to designing, debugging, and securing web-based systems.
 
 ### Targets
 
-In this section, you will learn to
+In this topic, students learn to:
 
-* Explain the **client-server architecture** and its role in web applications.
-* Differentiate between **clients** (browsers, mobile apps) and **servers** (web, database, application servers).
-* Describe the process of **request-response communication** using **HTTP** and **HTTPS**.
-* Identify different types of **servers** and their functions, including web servers, database servers, and caching servers.
-* Compare **centralised vs. distributed architectures**, including cloud-based solutions.
-* Recognise security considerations in **client-server interactions**, such as authentication and encryption.
+* Define the client-server model and identify its components
+* Describe the flow of requests and responses in a web application
+* Understand the role of protocols such as HTTP and IP in managing communication
+* Explain how sessions and state are managed across multiple interactions
+* Recognise how separating client and server logic improves security and design
 
-***
+### Syllabus references
 
-### How the client-server model works
+<details>
 
-The client-server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and delivers the data packets requested back to the client. Clients do not share any of their resources. Examples of the client-server model are email,the  World Wide Web, and cloud computing.
+<summary><a href="https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/content/year-12/fa6aab137e"><strong>Programming for the web</strong></a></summary>
 
-The most common application of the client-server model is delivered through the Internet via web browsers and servers.
+**Data transmission using the web**
 
-* **Client**\
-  When we say the word Client, we mean a person or organisation using a particular service. Similarly, in the digital world, a client is a computer (host) capable of receiving information or initiating a request for a particular service from the service providers (servers).
-* **Servers**\
-  Similarly, when we talk about servers, we mean a person or medium that serves something. In this digital world, a server is a remote computer that provides information (data) or access to particular services.
+*   Investigate and practise how data is transferred on the internet
 
-So, the client requests something, and the server serves it as long as it is in the database.
+    data packets
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/20240419170238/Client-Server-Model.webp)
+    internet protocol (IP) addresses, including IPv4
 
-_Client-server model_
+    domain name systems (DNS)
 
-### **How the browser interacts with the servers?**
+</details>
 
-A few steps exist to interact with a client's servers.
+### What is the client-server model?
 
-1. The user enters the website or file's URL (Uniform Resource Locator). The browser then requests the DNS (Domain Name System) server.
-2. The DNS server looks up the IP address of the web server.
-3. The DNS server responds with the IP address of the web Server.
-4. The browser sends over an HTTP/HTTPS request to the web server’s IP address (provided by the DNS server).
-5. The server with the necessary files for the website.
-6. The browser then renders the files, and the website is displayed. This rendering is done with the help of a DOM (Document Object Model) interpreter, CSS interpreter, and JS Engine, collectively known as the JIT or (Just in Time) compilers.
+The **client-server model** describes a relationship in which a **client**, such as a web browser, requests resources from a **server**, which processes the request and returns a response.
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/20231128175510/Client-Server-Model-2.png)
+This model is used by nearly all web applications. The client handles user interaction and presentation, while the server manages business logic, data storage, and security. This separation allows each part to be developed, scaled, and secured independently.
 
-_Client-server request and response_
+### The request-response cycle
 
-#### **Advantages of the client-server model**
+1. The client (browser) sends an HTTP request to a server.
+2. The server processes the request—possibly querying a database or performing a calculation.
+3. The server sends an HTTP response back to the client.
+4. The browser receives the response and displays the content or data to the user.
 
-* A centralised system with all data in a single place.
-* It is cost-efficient and requires less maintenance cost, and data recovery is possible.
-* The capacity of the client and servers can be changed separately.
+This cycle repeats with each interaction—clicking links, submitting forms, or navigating to new pages.
 
-#### **Disadvantages of the client-server model**
+**Image placeholder:**\
+&#xNAN;_&#x41; labelled diagram showing the request-response cycle between client and server, including arrows for requests and responses, and optional components like DNS lookup or database query._
 
-* Clients are prone to viruses, Trojans, worms, and malware that may also be present on the server.
-* Servers are prone to denial-of-service attacks.
-* Data packets may be spoofed or modified during transmission.
-* Phishing or capturing user login credentials or other useful information is common, as are MITM(Man in the Middle) attacks.
+**Caption:**\
+The client sends a request to the server using HTTP. The server processes the request and returns a response, such as a webpage, data, or confirmation message.
 
-The client-server architecture consolidates resources on servers for greater control and security, allows for flexible client options, and relies on a robust network for scalability and efficiency. While there are cost implications, the client-server model remains fundamental and has been shaped by trends such as cloud computing.Text
+### Benefits of the client-server model
 
-***
+#### Security
 
-### Key Concepts
+Sensitive operations such as login verification or data access are handled on the server side, reducing exposure to malicious activity on the client.
 
-> * **Client-Server Model**: A network structure where a client (e.g., a browser) requests resources or services from a central server.
-> * **Client**: A device or application that sends requests to a server, such as web browsers, mobile apps, and IoT devices.
-> * **Server**: A system that processes client requests and returns responses, including web servers (e.g., Apache, Nginx) and database servers (e.g., MySQL, MongoDB).
-> * **Request-Response Cycle**: The process where a client sends an **HTTP request**, and the server responds with a **resource** (HTML, JSON, etc.).
-> * **Stateless Communication**: HTTP is a stateless protocol, meaning each request is independent unless session management techniques (cookies, tokens) are used.
-> * **Centralised vs. Distributed Systems**: Centralised architectures rely on a single server, while distributed systems use multiple servers for scalability and redundancy (e.g., cloud computing).
-> * **Security Considerations**: Authentication methods (OAuth, JWT), encryption protocols (SSL/TLS), and access controls ensure secure client-server communication.
+#### Modularity
 
+Front-end and back-end development can be handled by separate teams using different tools and languages. This improves maintainability and scalability.
 
+#### Scalability
 
+Servers can handle multiple simultaneous requests from clients, and can be scaled vertically (more resources) or horizontally (more servers) as needed.
+
+### Real-world example
+
+A student logs into their school portal:
+
+* The client (browser) sends a login request to the server.
+* The server checks the credentials and creates a session.
+* The server sends back a personalised dashboard page.
+* The client renders the dashboard for the student to use.
+
+### Summary
+
+The client-server model is the foundation of all interactive web systems. It allows user devices to send requests to servers, which respond with content or actions. Understanding how this model works is essential for building secure, efficient, and responsive web applications.

@@ -158,7 +158,7 @@
 ## 500 Programming for the web
 
 * [510 How web applications work](500-programming-for-the-web/510-how-web-applications-work/README.md)
-  * [511 Web programming](500-programming-for-the-web/510-how-web-applications-work/511-web-programming.md)
+  * [511 Applications of web programming](500-programming-for-the-web/510-how-web-applications-work/511-applications-of-web-programming.md)
   * [512 Client-server model](500-programming-for-the-web/510-how-web-applications-work/512-client-server-model/README.md)
     * [Hacksheet](500-programming-for-the-web/510-how-web-applications-work/512-client-server-model/hacksheet.md)
     * [Lab](500-programming-for-the-web/510-how-web-applications-work/512-client-server-model/lab.md)
