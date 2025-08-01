@@ -178,6 +178,8 @@
   * [524 JavaScript in front-end web development](500-programming-for-the-web/520-frontend-web-development/524-javascript-in-front-end-web-development.md)
   * [525 Development tools and practices](500-programming-for-the-web/520-frontend-web-development/525-development-tools-and-practices/README.md)
     * [525.1 Version control and Git](500-programming-for-the-web/520-frontend-web-development/525-development-tools-and-practices/525.1-version-control-and-git.md)
+    * [525.2 CMS and open source tools](500-programming-for-the-web/520-frontend-web-development/525-development-tools-and-practices/525.2-cms-and-open-source-tools.md)
+    * [525.3 Performance and load time strategies](500-programming-for-the-web/520-frontend-web-development/525-development-tools-and-practices/525.3-performance-and-load-time-strategies.md)
 * [530 Back-end web programming](500-programming-for-the-web/530-back-end-web-programming/README.md)
   * [531 Server-side web programming](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming.md)
   * [532 Database management](500-programming-for-the-web/530-back-end-web-programming/532-database-management.md)
