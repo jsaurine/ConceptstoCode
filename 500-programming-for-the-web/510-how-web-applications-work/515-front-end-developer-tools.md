@@ -59,11 +59,7 @@ The **JavaScript console** allows developers to:
 
 Console logs are a primary tool for debugging front-end logic.
 
-**Image placeholder**\
-&#xNAN;_&#x41; screenshot of Chrome DevTools showing the Elements and Console panels side-by-side._
-
-**Caption:**\
-Developer tools allow live inspection of HTML, CSS and JavaScript while a page is running in the browser. This supports rapid debugging and testing.
+<figure><img src="../../.gitbook/assets/Google Chrome 2025-08-01 12.50.02.png" alt=""><figcaption><p>Developer tools allow live inspection of HTML, CSS and JavaScript while a page is running in the browser. This supports rapid debugging and testing.</p></figcaption></figure>
 
 #### Network tab
 

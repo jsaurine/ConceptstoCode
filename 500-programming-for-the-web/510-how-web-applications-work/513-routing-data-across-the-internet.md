@@ -61,7 +61,7 @@ Packets use these addresses to determine where they are going and where they cam
 
 Humans use domain names (like `www.example.com`), but computers route information using IP addresses. DNS acts like a **phonebook for the internet**, translating domain names into IP addresses.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>A browser sends a request to <code>www.example.com</code>. The DNS server translates this into an IP address, which is used to route packets to the correct web server.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>A browser sends a request to <code>www.example.com</code>. The DNS server translates this into an IP address, which is used to route packets to the correct web server.</p></figcaption></figure>
 
 ### Data packets and routing
 
