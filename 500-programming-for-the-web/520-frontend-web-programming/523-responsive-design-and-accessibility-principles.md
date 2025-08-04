@@ -57,7 +57,7 @@ Techniques include:
 
 This CSS hides a navigation menu on screens narrower than 600 pixels.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Responsive design ensures that webpages adjust automatically to fit different screen sizes, improving usability and accessibility across devices.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Responsive design ensures that webpages adjust automatically to fit different screen sizes, improving usability and accessibility across devices.</p></figcaption></figure>
 
 ### Accessibility principles
 

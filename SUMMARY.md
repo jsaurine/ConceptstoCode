@@ -3,6 +3,7 @@
 ## Front Matter
 
 * [Preface](README.md)
+* [Syllabus Concept Map](front-matter/syllabus-concept-map.md)
 * [Introduction](front-matter/introduction.md)
 
 ## 100 Programming fundamentals
@@ -109,7 +110,6 @@
 
 ## 400 Secure Software Architecture
 
-* [400 Concept Mapping](400-secure-software-architecture/400-concept-mapping.md)
 * [410 Principles of secure software](400-secure-software-architecture/410-principles-of-secure-software/README.md)
   * [411 Goals of secure software development](400-secure-software-architecture/410-principles-of-secure-software/411-goals-of-secure-software-development/README.md)
     * [411.1 The CIA triad](400-secure-software-architecture/410-principles-of-secure-software/411-goals-of-secure-software-development/411.1-the-cia-triad.md)
@@ -182,7 +182,10 @@
     * [525.3 Performance and load time strategies](500-programming-for-the-web/520-frontend-web-programming/525-development-tools-and-practices/525.3-performance-and-load-time-strategies.md)
   * [526 Web standards and ethical development](500-programming-for-the-web/520-frontend-web-programming/526-web-standards-and-ethical-development.md)
 * [530 Back-end web programming](500-programming-for-the-web/530-back-end-web-programming/README.md)
-  * [531 Server-side web programming](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming.md)
+  * [531 Server-side web programming](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming/README.md)
+    * [531.1 Handling requests (web server frameworks)](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming/531.1-handling-requests-web-server-frameworks.md)
+    * [531.2 Shell scripting in web dev (creating files, searching logs)](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming/531.2-shell-scripting-in-web-dev-creating-files-searching-logs.md)
+    * [531.3 APIs and JSON](500-programming-for-the-web/530-back-end-web-programming/531-server-side-web-programming/531.3-apis-and-json.md)
   * [532 Database management](500-programming-for-the-web/530-back-end-web-programming/532-database-management.md)
 
 ## 700 Software Engineering Project
