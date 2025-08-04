@@ -96,7 +96,7 @@ In **UML class diagrams**, encapsulated attributes are marked with visibility in
 --------------------------
 |    BankAccount         |
 --------------------------
-| - balance: float       |
+| # balance: float       |
 --------------------------
 | + deposit(amount)      |
 | + get_balance(): float |
