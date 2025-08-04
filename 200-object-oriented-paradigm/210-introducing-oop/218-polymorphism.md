@@ -100,11 +100,7 @@ for widget in widget_list:
     widget.draw()  # Each widget handles this in its own way
 ```
 
-**Image placeholder**\
-&#xNAN;_&#x41; UML diagram showing a base class `Animal` with subclasses `Dog` and `Cat`, each overriding the `speak()` method._
-
-**Caption:**\
-Polymorphism allows objects to respond differently to the same message. This supports generic code that adapts to object types automatically.
+<figure><img src="../../.gitbook/assets/ChatGPT 2025-08-04 13.02.32.png" alt=""><figcaption><p>Polymorphism allows objects to respond differently to the same message. This supports generic code that adapts to object types automatically.</p></figcaption></figure>
 
 ### Summary
 
