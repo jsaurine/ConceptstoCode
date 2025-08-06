@@ -108,6 +108,12 @@
   * [215 Variable scope in OOP](200-object-oriented-paradigm/200-suggested-answers/215-variable-scope-in-oop.md)
   * [216 Calling methods](200-object-oriented-paradigm/200-suggested-answers/216-calling-methods.md)
 
+## 300 Programming mechatronics
+
+* [310 Understanding mechatronic systems](300-programming-mechatronics/310-understanding-mechatronic-systems.md)
+* [320 Designing control algorithms](300-programming-mechatronics/320-designing-control-algorithms.md)
+* [330 Programming and building mechatronic systems](300-programming-mechatronics/330-programming-and-building-mechatronic-systems.md)
+
 ## 400 Secure Software Architecture
 
 * [410 Principles of secure software](400-secure-software-architecture/410-principles-of-secure-software/README.md)
