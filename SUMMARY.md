@@ -110,7 +110,8 @@
 
 ## 300 Programming mechatronics
 
-* [310 Understanding mechatronic systems](300-programming-mechatronics/310-understanding-mechatronic-systems.md)
+* [310 Understanding mechatronic systems](300-programming-mechatronics/310-understanding-mechatronic-systems/README.md)
+  * [311 Applications of mechatronics](300-programming-mechatronics/310-understanding-mechatronic-systems/311-applications-of-mechatronics.md)
 * [320 Designing control algorithms](300-programming-mechatronics/320-designing-control-algorithms.md)
 * [330 Programming and building mechatronic systems](300-programming-mechatronics/330-programming-and-building-mechatronic-systems.md)
 
