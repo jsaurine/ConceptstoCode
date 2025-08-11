@@ -85,7 +85,7 @@ Every HTML element is treated as a rectangular box with four layers:
 
 Understanding the box model is essential for layout and spacing.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Cascading and specificity
 

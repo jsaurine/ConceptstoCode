@@ -49,7 +49,7 @@ In this topic, students learn to:
 
 For example, video platforms use metadata to sort videos by category, popularity, or publication date.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Describing physical and digital objects is what metadata is about. It helps the classification, access and storage of digital assets of all kinds. It is with metadata that the encoding of knowledge within any data element is possible.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Describing physical and digital objects is what metadata is about. It helps the classification, access and storage of digital assets of all kinds. It is with metadata that the encoding of knowledge within any data element is possible.</p></figcaption></figure>
 
 Metadata helps web applications categorise and retrieve content efficiently, supporting personalised search and user experiences.
 
