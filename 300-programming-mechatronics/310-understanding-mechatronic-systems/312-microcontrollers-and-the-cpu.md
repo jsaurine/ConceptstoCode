@@ -73,7 +73,7 @@ Microcontrollers are optimised for specific, embedded tasks — like controlling
 | Speed             | Often higher clock speeds for complex tasks                                                        | Sufficient for control tasks, typically lower speeds                              |
 | Example devices   | Intel Core series, AMD Ryzen, ARM Cortex-A                                                         | Arduino (ATmega328), Raspberry Pi Pico (RP2040), PIC, STM32                       |
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>A microprocessor (left) focuses solely on processing and requires external memory and peripherals. A microcontroller (right) integrates the CPU, memory, and I/O ports into a single chip for dedicated control tasks.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>A microprocessor or CPU  (left) focuses solely on processing and requires external memory and peripherals. A microcontroller (right) integrates the CPU, memory, and I/O ports into a single chip for dedicated control tasks.</p></figcaption></figure>
 
 
 
@@ -91,3 +91,12 @@ The **instruction set architecture** (ISA) defines the set of operations a proce
 ### Summary
 
 CPUs and microcontrollers both process instructions, but their design priorities are different. CPUs offer speed and flexibility for a wide range of tasks, while microcontrollers integrate processing with peripherals for efficient control of dedicated systems. Understanding this distinction helps in choosing the right hardware for a mechatronic application.
+
+### Questions
+
+1. What is the primary difference between a microcontroller and a microprocessor?
+2. Why are microcontrollers preferred in embedded systems?
+3. What is the ESP32, and why is it significant in this context?
+4. What are some common pin functions found on microcontrollers?
+5. What factors should be considered when selecting components for an IoT project?
+
