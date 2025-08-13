@@ -62,16 +62,16 @@ Microcontrollers are optimised for specific, embedded tasks — like controlling
 
 **Key differences between CPUs and microcontrollers:**
 
-| Feature           | Microprocessor                                                                                     | Microcontroller                                                                   |
-| ----------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Integration       | Contains only the CPU and minimal components; requires external memory, I/O ports, and peripherals | Contains CPU, memory, I/O ports, and peripherals all on a single chip             |
-| Primary use       | General-purpose computing in PCs, laptops, and high-performance systems                            | Embedded and dedicated applications such as robotics, appliances, and IoT devices |
-| Memory            | External RAM and ROM must be connected separately                                                  | On-chip RAM and ROM/Flash storage                                                 |
-| I/O ports         | Requires external I/O controllers                                                                  | Built-in I/O ports for direct device interfacing                                  |
-| Power consumption | Generally higher due to external component requirements and higher clock speeds                    | Lower, optimised for low-power and battery-powered applications                   |
-| Cost              | Higher overall system cost due to separate components                                              | Lower cost for complete embedded solutions                                        |
-| Speed             | Often higher clock speeds for complex tasks                                                        | Sufficient for control tasks, typically lower speeds                              |
-| Example devices   | Intel Core series, AMD Ryzen, ARM Cortex-A                                                         | Arduino (ATmega328), Raspberry Pi Pico (RP2040), PIC, STM32                       |
+| Feature           | Microprocessor (CPU)                                                                                  | Microcontroller                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Integration       | Is only the CPU and contains minimal components; requires external memory, I/O ports, and peripherals | Contains CPU, memory, I/O ports, and peripherals all on a single chip             |
+| Primary use       | General-purpose computing in PCs, laptops, and high-performance systems                               | Embedded and dedicated applications such as robotics, appliances, and IoT devices |
+| Memory            | External RAM and ROM must be connected separately                                                     | On-chip RAM and ROM/Flash storage                                                 |
+| I/O ports         | Requires external I/O controllers                                                                     | Built-in I/O ports for direct device interfacing                                  |
+| Power consumption | Generally higher due to external component requirements and higher clock speeds                       | Lower, optimised for low-power and battery-powered applications                   |
+| Cost              | Higher overall system cost due to separate components                                                 | Lower cost for complete embedded solutions                                        |
+| Speed             | Often higher clock speeds for complex tasks                                                           | Sufficient for control tasks, typically lower speeds                              |
+| Example devices   | Intel Core series, AMD Ryzen, ARM Cortex-A                                                            | Arduino (ATmega328), Raspberry Pi Pico (RP2040), PIC, STM32                       |
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>A microprocessor or CPU  (left) focuses solely on processing and requires external memory and peripherals. A microcontroller (right) integrates the CPU, memory, and I/O ports into a single chip for dedicated control tasks.</p></figcaption></figure>
 
